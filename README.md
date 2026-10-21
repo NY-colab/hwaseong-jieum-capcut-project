@@ -4,7 +4,7 @@
 
 [프로젝트 ZIP 다운로드](https://github.com/NY-colab/hwaseong-jieum-capcut-project/releases/latest/download/hwaseong-jieum-capcut.zip) · [Release 및 체크섬](https://github.com/NY-colab/hwaseong-jieum-capcut-project/releases/latest)
 
-현재 공유본은 **84.77초**, 메인 트랙 **19개 클립의 UHD 품질 보정**, #3 코리요 한숨 장면, 분리된 #7 장면, 보강된 제목 음영·엔딩 글자와 BGM을 포함합니다. 전체 패키지 파일 해시·ZIP 무결성·323개 미디어/리소스 경로와 19개 UHD 캐시를 검증했습니다. 설치 스크립트는 별도 시험 데이터로 검증했으며, 이 실제 패키지의 새 PC 설치 및 CapCut 재생은 별도 확인이 필요합니다.
+현재 공유본은 **84.77초**, 메인 트랙 **19개 클립의 UHD 품질 보정**, #3 코리요 한숨 장면, 분리된 #7 장면, 보강된 제목 음영·엔딩 글자와 BGM을 포함합니다. 전체 패키지 파일 해시·ZIP 무결성·323개 미디어/리소스 경로와 19개 UHD 캐시를 검증했습니다. 설치 스크립트는 별도 시험 데이터와 실제 패키지의 격리 설치로 검증했습니다. 격리 시험에서는 불변 미디어를 하드링크해 공간 사용을 줄였고, 기존 프로젝트 보존·새 이름/ID 등록·설치 후 324개 참조와 UHD 캐시 연결을 확인했습니다. 다른 PC에서 CapCut을 열어 재생하는 검수는 별도로 필요합니다.
 
 ## Codex에 붙여 넣을 요청
 
