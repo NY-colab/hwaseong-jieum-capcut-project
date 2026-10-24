@@ -1,8 +1,8 @@
 {
   "file": "261024_지음업싸이클링.mp4",
   "date": "2026-10-24",
-  "bytes": 649859667,
-  "sha256": "ba9b05b7c0dd41e56fcc5c09b123f318fb4e625df10965e92a1b9017aef009b8",
+  "bytes": 649859087,
+  "sha256": "7aabd09eec0fc01dd3d1a48ae07a93cd905dc774d8ca647b11fe4ef3ec48231f",
   "resolution": [
     3840,
     2160
@@ -16,7 +16,7 @@
   "audio_sample_rate": 48000,
   "audio_channels": 2,
   "full_video_audio_decode": "passed; ffmpeg -v error -xerror, exit 0",
-  "visual_checks": "12 sampled scenes and frame at 68.5 seconds inspected; no broken frames or caption clipping observed",
+  "visual_checks": "Video stream is byte-identical to the previously inspected 4K output; no visual changes in this audio correction.",
   "video_stream_unchanged_from_previous_4k_export": true,
   "voice": "CapCut 순한 소녀 / ICL_uranus_ko_female_kann",
   "corrected_phrases": [
@@ -24,5 +24,42 @@
     "열 분에 한해"
   ],
   "outside_target_audio_intervals_pcm_identical": true,
-  "human_listening_check": false
+  "human_listening_check": false,
+  "revision": "2026-10-24 audio overlap correction",
+  "audio_mix_method": "Replace the entire mixed target windows from separate BGM and exactly one corrected native narration source; no subtractive cancellation.",
+  "audio_overlap_verification": [
+    {
+      "phrase": 1,
+      "timeline_patch_seconds": [
+        7.723333333333334,
+        9.183333333333334
+      ],
+      "phrase_seconds": [
+        7.773333333333333,
+        9.133333333333333
+      ],
+      "active_narration_sources": 1,
+      "previous_mix_unwanted_residual_dbfs": -67.11195818679187,
+      "new_pcm_old_voice_contribution": 0,
+      "current_source": "TransferAssets/Narration1024Native/세_번에서_네_번만_입고.wav",
+      "final_aac_error_dbfs": -67.26243702044792
+    },
+    {
+      "phrase": 2,
+      "timeline_patch_seconds": [
+        67.88,
+        68.95
+      ],
+      "phrase_seconds": [
+        67.93,
+        68.9
+      ],
+      "active_narration_sources": 1,
+      "previous_mix_unwanted_residual_dbfs": -26.440982504618017,
+      "new_pcm_old_voice_contribution": 0,
+      "current_source": "TransferAssets/Narration1024Native/열_분에_한해.wav",
+      "final_aac_error_dbfs": -67.98401182141953
+    }
+  ],
+  "project_has_one_corrected_voice_per_target": true
 }

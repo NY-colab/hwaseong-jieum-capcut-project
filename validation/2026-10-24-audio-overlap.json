@@ -1,0 +1,47 @@
+{
+  "status": "audio_rebuilt",
+  "root_cause": "Previous mix used waveform subtraction against a rendered narration that was not sample-identical; old voice residue remained, especially phrase 2.",
+  "method": "Replace the entire mixed target windows from separate BGM and exactly one corrected native narration source; no subtractive cancellation.",
+  "intervals": [
+    {
+      "phrase": 1,
+      "timeline_patch_seconds": [
+        7.723333333333334,
+        9.183333333333334
+      ],
+      "phrase_seconds": [
+        7.773333333333333,
+        9.133333333333333
+      ],
+      "active_narration_sources": 1,
+      "previous_mix_unwanted_residual_dbfs": -67.11195818679187,
+      "new_pcm_old_voice_contribution": 0,
+      "current_source": "TransferAssets/Narration1024Native/세_번에서_네_번만_입고.wav",
+      "final_aac_error_dbfs": -67.26243702044792
+    },
+    {
+      "phrase": 2,
+      "timeline_patch_seconds": [
+        67.88,
+        68.95
+      ],
+      "phrase_seconds": [
+        67.93,
+        68.9
+      ],
+      "active_narration_sources": 1,
+      "previous_mix_unwanted_residual_dbfs": -26.440982504618017,
+      "new_pcm_old_voice_contribution": 0,
+      "current_source": "TransferAssets/Narration1024Native/열_분에_한해.wav",
+      "final_aac_error_dbfs": -67.98401182141953
+    }
+  ],
+  "outside_windows_pcm_identical_to_pre_numeral_export": true,
+  "video_stream_identical": true,
+  "project_changed": false,
+  "project_has_one_corrected_voice_per_target": true,
+  "peak": 0.6992088556289673,
+  "output_sha256": "7aabd09eec0fc01dd3d1a48ae07a93cd905dc774d8ca647b11fe4ef3ec48231f",
+  "output_bytes": 649859087,
+  "human_listening_check": false
+}

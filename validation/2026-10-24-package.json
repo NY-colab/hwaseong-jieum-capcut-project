@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "archive_bytes": 316112581,
-  "archive_sha256": "84e6783e9f2e29c72ee6b605dab39dfcbbe60b7dd9f3c2ce85abeb345b88d4b0",
+  "archive_bytes": 315796900,
+  "archive_sha256": "a526d45bb41a14c080e5909db1f8db907a7d91635e27bd744b21e820f91be0af",
   "duration_seconds": 84.766666,
   "zip_crc": "passed",
   "manifest_files_verified": 786,
