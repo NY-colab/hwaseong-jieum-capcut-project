@@ -1,0 +1,28 @@
+{
+  "file": "261024_지음업싸이클링.mp4",
+  "date": "2026-10-24",
+  "bytes": 649859667,
+  "sha256": "ba9b05b7c0dd41e56fcc5c09b123f318fb4e625df10965e92a1b9017aef009b8",
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 2543,
+  "duration_seconds": 84.766667,
+  "video_codec": "h264",
+  "video_bitrate": 61022258,
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "full_video_audio_decode": "passed; ffmpeg -v error -xerror, exit 0",
+  "visual_checks": "12 sampled scenes and frame at 68.5 seconds inspected; no broken frames or caption clipping observed",
+  "video_stream_unchanged_from_previous_4k_export": true,
+  "voice": "CapCut 순한 소녀 / ICL_uranus_ko_female_kann",
+  "corrected_phrases": [
+    "세 번에서 네 번만 입고",
+    "열 분에 한해"
+  ],
+  "outside_target_audio_intervals_pcm_identical": true,
+  "human_listening_check": false
+}

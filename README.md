@@ -4,13 +4,17 @@
 
 [프로젝트 ZIP 다운로드](https://github.com/NY-colab/hwaseong-jieum-capcut-project/releases/latest/download/hwaseong-jieum-capcut.zip) · [Release 및 체크섬](https://github.com/NY-colab/hwaseong-jieum-capcut-project/releases/latest)
 
-현재 공유본은 **v2026.10.23**, **84.77초** 분량입니다. 메인 트랙 **19개 클립의 UHD 품질 보정**, #3 코리요 한숨 장면, 분리된 #7 장면, 보강된 제목 음영·엔딩 글자와 BGM을 포함합니다.
+현재 공유본은 **v2026.10.24**, **84.77초** 분량입니다. 메인 트랙 **19개 클립의 UHD 품질 보정**, #3 코리요 한숨 장면, 분리된 #7 장면, 보강된 제목 음영·엔딩 글자와 BGM을 포함합니다.
 
-이번 버전에서는 **5.90–16.63초 드레스 클립의 원본 오디오를 음소거**해 BGM 겹침을 해결했습니다. **58.87–62.30초 슬로건 장면**에는 나레이션에 맞춰 **“그 작은 변화가 / 지구의 내일을 / 바꿉니다.”** 하단 자막을 추가했습니다. 편집 가능한 자막과 음량 설정으로 반영되어 있습니다.
+이번 버전에서는 CapCut **‘순한 소녀’**로 숫자 나레이션 두 부분을 다시 생성해 **“세 번에서 네 번만 입고”**, **“열 분에 한해”**로 교체했습니다. 수정 구절 밖의 나레이션·BGM·영상·자막·타임라인 길이를 유지했습니다.
+
+2026-10-24 최종 영상은 **3840×2160, 30fps, 84.766667초, H.264 약 61Mbps**입니다. 전체 영상·오디오 디코딩과 주요 장면/자막을 확인했고, 기존 4K 출력과 영상 스트림이 동일함을 SHA-256으로 검증했습니다. 수정 발음은 음성 인식으로 확인했습니다. [4K 검증 기록](validation/2026-10-24-4k.json)을 참고하세요.
+
+기존의 5.90–16.63초 드레스 원본 오디오 음소거와 58.87–62.30초 “그 작은 변화가 / 지구의 내일을 / 바꿉니다.” 하단 자막도 유지했습니다.
 
 패키지의 파일 해시·ZIP 무결성·미디어/리소스 경로와 19개 UHD 캐시를 검증하며, 설치 스크립트는 실제 패키지를 별도 시험 폴더에 설치해 확인합니다. 다른 PC에서 CapCut을 열어 재생하는 검수는 별도로 필요합니다.
 
-[수정된 최종 영상 보기](https://drive.google.com/file/d/1IjKWBzC8upTb0dZxT2a_XcehBXttzrAZ/view) · 3840×2160, 30fps
+[수정된 최종 영상 보기](https://drive.google.com/file/d/1HUsj7aAHoz9hlSWJt7D4EGYQ2qhyDyAy/view?usp=drivesdk) · 3840×2160, 30fps
 
 ## Codex에 붙여 넣을 요청
 
@@ -26,7 +30,7 @@
 powershell -NoProfile -ExecutionPolicy Bypass -File .\download_install.ps1
 ```
 
-다른 위치에 프로젝트를 저장하는 설정이면 `-DraftRoot "D:\실제\com.lveditor.draft"`를 지정합니다. 다운로드만 하려면 `-DownloadOnly`를 붙입니다. 특정 Release는 `-Tag "v2026.10.23"`처럼 지정합니다.
+다른 위치에 프로젝트를 저장하는 설정이면 `-DraftRoot "D:\실제\com.lveditor.draft"`를 지정합니다. 다운로드만 하려면 `-DownloadOnly`를 붙입니다. 특정 Release는 `-Tag "v2026.10.24"`처럼 지정합니다.
 
 ZIP을 직접 받은 경우 같은 Release의 `SHA256SUMS.txt`와 SHA-256을 비교한 뒤 압축을 풀고 실행합니다.
 
